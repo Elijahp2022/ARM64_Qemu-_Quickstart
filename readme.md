@@ -1,6 +1,6 @@
 # Emulating SBCs on Ubuntu 24.04(Noble Numbat) with qemu.
 
-This repo has instructions for emulating various architectures(Right now just Arm64).
+This repository has instructions for emulating Ubuntu Noble on qemu with ARM64 architecture
 
 ## Installing qemu
 
