@@ -32,7 +32,7 @@ This is another thing that can differ based on image and other factors but it sh
 
 ## Launching the VM
 
-The VM is booted with one very long command which is in the launch.sh file. You can boot the VM by running ```./launch.sh```
+The VM is booted with one very long command which is in the launch.sh file. You can boot the VM by running ```sudo bash launch.sh```
 
 ## Internet Setup
 
