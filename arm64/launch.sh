@@ -3,9 +3,9 @@ qemu-system-aarch64 \
 -M virt \
 -m 4G \
 -smp 4 \
--cpu cortex-a76 \
+-cpu cortex-a53 \
 -kernel vmlinuz \
--initrd initrd.img-6.8.0-1005-raspi \
+-initrd initrd.img \
 -drive file=ubuntu-24.04-preinstalled-server-arm64+raspi.img,format=raw,if=none,id=drive0,cache=writeback \
 -device virtio-blk,drive=drive0,bootindex=0 \
 -netdev user,id=net0,hostfwd=tcp::2222-:22 \
