@@ -17,7 +17,7 @@ Occasionally running the launch script fails. When this happens close the termin
 
 It is recommended, though not required, to not update the initramfs.
 This can be done by running `sudo nano /etc/initramfs-tools/update-initramfs.conf'
-and then changing `update_initramfs=yes` to `update_initramfs=no`.
+and then changing "update_initramfs=yes" to "update_initramfs=no".
 Downloading some packages which requires updating the initramfs which can take a very long time.
 
 # To do
