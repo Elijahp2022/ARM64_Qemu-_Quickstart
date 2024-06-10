@@ -1,22 +1,12 @@
-# Emulating SBCs on Ubuntu 24.04(Noble Numbat) with qemu.
+# Instructions
 
-This repository has instructions for emulating Ubuntu Noble on qemu with ARM64 architecture
+Run the setup script with `setup.sh`.
+This will download and unpack the image as well as resize it
+Be careful as this script can take a long time and uses 10 GB of disk space.
 
-## Installing qemu
+Then run run the launch script with `launch.sh`.
+This will launch the emulator with 4 GB of ram and port forwarding through port 22
 
-Install qemu with ```sudo apt install qemu-system```
+# To do
 
-## Download The image
-
-A list of Noble images can be found at ```https://cdimage.ubuntu.com/releases/24.04/release/```
-Many of the images are compressed with xz. An example of how to download and unpack them:
-```
-wget https://cdimage.ubuntu.com/releases/24.04/release/<your-image>.img.xz
-xz -d <your-image>.img.xz
-```
-
-## Resizing the image
-
-Once you've downloaded and unpacked the image you *can* use it to launch an emulator but it will have very little disk space.You can increase the disk size by running 
-```qemu-img resize <your-image>.img +10G```
-This will increase the chosen image by 10 Gigabytes.
+Add a menu script for easier customization when setting up and launching.
