@@ -1,3 +1,7 @@
+# Description
+
+This repository has resources for launching Ubuntu 24.04 On a Qemu emulator with a 64 bit ARM architecture.
+
 # Instructions
 
 Run the setup script with `setup.sh`.
